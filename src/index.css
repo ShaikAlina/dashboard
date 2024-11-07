@@ -245,6 +245,7 @@ code {
 }
 
 /* sudo selector */
+
 .item:hover {
   cursor: pointer;
 }
@@ -278,10 +279,11 @@ code {
   display: inline-block;
   margin-right: 30px;
   text-decoration: none;
+  font-size: 0.9rem;
 }
 
 .menu {
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
   font-weight: 400;
   color: rgb(70, 70, 70);
 }
@@ -725,8 +727,8 @@ hr {
 }
 
 .actions span button {
-  width: 40px;
-  height: 30px;
+  width: 30px;
+  height: 20px;
   border-radius: 4px;
   text-align: center;
   margin-right: 8px;
@@ -737,7 +739,7 @@ hr {
   background-color: #4184f3;
   color: #fff;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   border: 0.7px solid #4184f3;
 }
 
@@ -745,7 +747,7 @@ hr {
   background-color: #ff5722;
   color: #fff;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   border: 0.7px solid #ff5722;
 }
 
@@ -755,7 +757,7 @@ hr {
 }
 
 .icon {
-  transform: scale(0.7);
+  transform: scale(0.5);
   color: rgb(65, 65, 65);
 }
 
@@ -842,5 +844,6 @@ hr {
   background-color: rgb(212, 212, 212);
 }
 
-
-
+.td{
+  font-size: 2rem;
+}
